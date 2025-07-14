@@ -103,5 +103,58 @@ This data project was made with the goal of gaining insights into the performanc
 | `Original`      | Text     | Whether this election was the first (non-special or a runoff).|
 
 </br>
+## Data Manipulation
+
+### Categorizing Parties and Ranking Nominees
+```sql
+CREATE View Ordered AS 
+SELECT Nominee, Party, Gender, State, Region, WiderRegion, Type, Race, Class, Incumbent, Victor, Votes, Share, Total, 
+    dense_rank() OVER (PARTITION BY Race ORDER BY Votes DESC) AS Standing, Heldby, Hometown, ElectionDay, ElectionYear, YearType, LastElection, 
+    Final, CASE
+        WHEN Party IN ('Democratic', 'Democratic-Farmer-Labor', 'Democratic-Nonpartisan League', 'Popular Democratic Party', 'Democratic (Write-In)') THEN 'Democratic Party'
+        WHEN Party IN ('Republican', 'Republican (Write-In)', 'New Progressive Party') THEN 'Republican Party'
+        WHEN Party IN ('Free Libertarian', 'Libertarian') THEN 'Libertarian Party'
+        WHEN Party in ('Reform') then 'Reform Party'
+        WHEN Party in ('Constitution', 'American Independent', 'American Constitution Party', 'U.S. Taxpayers', 'Independent American') THEN 'Constitution Party'
+        WHEN Party in ('Green', 'Mountain', 'D.C. Statehood Green', 'Pacific Green', 'Independent Green', 'Desert Greens') then 'Green Party'
+        WHEN Party = 'Conservative' THEN 'Conservative Party'
+        WHEN Party IN ('Young Socialist Alliance', 'Communist', 'Socialist Equality', 'Socialist', 'Socialist Labor', 'Peace And Freedom', 'Socialist Workers', 'Liberty Union') THEN 'Socialist Parties'
+        WHEN Party IN ('No Party', 'No Party Affiliation', 'Other', 'Nominated by Petition', 'Conneticut for Lieberman', 'Write-In', 'Independent Political Choice', 'No Party Preference', 'Independent', 'Independent Constitutional Candidate', 'Independent Party of Delaware', 'Independence', 'Nonpartisan', 'No Political Party', 'Unaffiliated') THEN 'Independent'
+        ELSE 'Other Minor Parties'
+    END AS Category, Special, Runoff 
+FROM Nominee-2924
+ORDER BY Race, State;
+
+
+```
+
+
+
+This SQL query creates a view that selects all the columns from the Nominee, and creates a normalized designation for party affiliation called Categorym while also ranking nominees in each race by Standing. 
+
+
+
+</br>
+
+### Creating Margins for Each Race
+
+
+```sql
+-- Creating view for all first place nominees
+CREATE VIEW NRanks1 AS SELECT * FROM Ordered WHERE Standing = 1
+
+-- Creating view for all second place nominees
+CREATE VIEW NRanks2 AS SELECT * FROM Ordered WHERE Standing = 2
+
+-- Creating a iew for Margins based on first place share - second place share
+CREATE VIEW Margs AS SELECT a.Race,  a.Share - b.Share AS Win
+FROM NRanks1 a 
+JOIN NRanks2 b ON a.Race = b.Race
+```
+
+These queries create views for all nominees who had a Standing of 1 or 2 in each election. Then a new view is created that takes 1's and subtracts their share of the votes by 2's, creating margins of victory for each race. 
+
+
+### Joining Each Margin with Their Race
 
 
