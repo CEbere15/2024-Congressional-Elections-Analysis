@@ -1,0 +1,482 @@
+ID,Race,SeatHolder,Gender,TermStart,Birthday,Decision,DaysofTerm,Age,Swearin,Original
+1,AL-01,"Jerry L. Carl, Jr.",Male,2021-01-03,1958-06-17,Reelection (Lost Renomination),1402,66,63,TRUE
+2,AL-02,F. Barry Moore,Male,2021-01-03,1966-09-26,Reelection (Redistricting; Won Renomination),1402,58,54,TRUE
+3,AL-03,Michael D. Rogers,Male,2003-01-03,1958-07-16,Reelection (Renominated),7977,66,44,TRUE
+4,AL-04,Robert B. Aderholt,Male,1997-01-03,1965-07-22,Reelection (Renominated),10168,59,31,TRUE
+5,AL-05,Dale W. Strong,Male,2023-01-03,1970-05-08,Reelection (Renominated),672,54,53,TRUE
+6,AL-06,Gary J. Palmer,Male,2015-01-03,1970-05-08,Reelection (Renominated),3594,54,45,TRUE
+7,AL-07,Terrycina A. Sewell,Female,2011-01-03,1965-01-01,Reelection (Renominated),5055,60,46,TRUE
+8,AK-AL (First Round),Mary Sattler Peltola,Female,2022-09-13,1973-08-31,Reelection (Renominated),784,51,49,TRUE
+9,AK-AL (Second Round),Mary Sattler Peltola,Female,2022-09-13,1973-08-31,Reelection (Renominated),784,51,49,FALSE
+10,AK-AL (Final Round),Mary Sattler Peltola,Female,2022-09-13,1973-08-31,Reelection (Renominated),784,51,49,FALSE
+11,AZ-Sen,Kyrsten L. Sinema,Female,2019-01-03,1976-07-12,Retired,2133,48,42,TRUE
+12,AZ-01,David S. Schweikert,Male,2011-01-03,1962-03-03,Reelection (Renominated),5055,63,49,TRUE
+13,AZ-02,Elijah J. Crane,Male,2023-01-03,1980-01-03,Reelection (Renominated),672,45,43,TRUE
+14,AZ-03,Ruben M. Gallego,Male,2015-01-03,1979-11-20,Retired (Higher Office),3594,45,35,TRUE
+15,AZ-04,Gregory J. Stanton,Male,2019-01-03,1970-03-08,Reelection (Renominated),2133,55,49,TRUE
+16,AZ-05,Andrew S. Biggs,Male,2017-01-03,1958-11-07,Reelection (Renominated),2863,66,58,TRUE
+17,AZ-06,Juan G. Ciscomani III,Male,2023-01-03,1982-08-31,Reelection (Renominated),672,42,40,TRUE
+18,AZ-07,Raúl M. Grijalva,Male,2003-01-03,1948-02-19,Retired,7977,77,55,TRUE
+19,AZ-08,Debra K. Lesko,Female,2018-05-07,1958-11-14,Retired (Higher Office),2374,66,59,TRUE
+20,AZ-09,Paul A. Gosar,Male,2011-01-03,1966-01-22,Reelection (Renominated),5055,59,45,TRUE
+21,AR-01,Eric A. Crawford,Male,2011-01-03,1966-01-22,Reelection (Renominated),5055,59,45,TRUE
+22,AR-02,J. French Hill,Male,2015-01-03,1956-12-05,Reelection (Renominated),3594,68,58,TRUE
+23,AR-03,Stephen A. Womack,Male,2011-01-03,1957-02-18,Reelection (Renominated),5055,68,54,TRUE
+24,AR-04,Bruce E. Westerman,Male,2015-01-03,1967-11-18,Reelection (Renominated),3594,57,47,TRUE
+25,CA-Sen (Special),Laphonza R. Butler,Female,2023-10-01,1979-05-11,Retired,401,45,44,TRUE
+26,CA-Sen,Laphonza R. Butler,Female,2023-10-01,1979-05-11,Retired,401,45,44,TRUE
+27,CA-01,Douglas L. LaMalfa,Male,2013-01-03,1960-07-02,Reelection (Renominated),4324,64,53,TRUE
+28,CA-02,Jared W. Huffman,Male,2013-01-03,1964-02-18,Reelection (Renominated),4324,61,49,TRUE
+29,CA-03,Kevin P. Kiley,Male,2023-01-03,1985-01-30,Reelection (Renominated),672,40,38,TRUE
+30,CA-04,C. Michael Thompson,Male,1999-01-03,1951-01-24,Reelection (Renominated),9438,74,48,TRUE
+31,CA-05,Thomas M. McClintock II,Male,2009-01-03,1956-07-10,Reelection (Renominated),5785,68,52,TRUE
+32,CA-06,Amerish B. Bera,Male,2013-01-03,1965-03-02,Reelection (Renominated),4324,60,48,TRUE
+33,CA-07,Doris O. Matsui,Female,2005-03-10,1944-09-25,Reelection (Renominated),7180,80,60,TRUE
+34,CA-08,John R. Garamendi,Male,2009-11-05,1945-01-24,Reelection (Renominated),5479,80,65,TRUE
+35,CA-09,Joshua K. Harder,Male,2019-01-03,1986-08-01,Reelection (Renominated),2133,38,32,TRUE
+36,CA-10,Mark J. DeSaulnier,Male,2015-01-03,1952-03-31,Reelection (Renominated),3594,73,63,TRUE
+37,CA-11,Nancy D. Pelosi,Female,1987-06-02,1940-03-26,Reelection (Renominated),13671,85,47,TRUE
+38,CA-12,Barbara J. Lee,Female,1998-04-21,1946-07-16,Retired (Higher Office),9695,78,52,TRUE
+39,CA-13,John S. Duarte,Male,2023-01-03,1966-09-09,Reelection (Renominated),672,58,56,TRUE
+40,CA-14,Eric M. Swalwell,Male,2013-01-03,1980-11-16,Reelection (Renominated),4324,44,32,TRUE
+41,CA-15,Kevin C. Mullin,Male,2023-01-03,1970-06-15,Reelection (Renominated),672,54,53,TRUE
+42,CA-16,Anna A. Eshoo,Female,1993-01-03,1942-12-13,Retired,11629,82,50,TRUE
+43,CA-17,Rohit Khanna,Male,2017-01-03,1976-09-13,Reelection (Renominated),2863,48,40,TRUE
+44,CA-18,"Susan E. ""Zoe"" Lofgren",Female,1995-01-03,1947-12-21,Reelection (Renominated),10899,77,47,TRUE
+45,CA-19,James V. Panetta,Male,2017-01-03,1969-10-01,Reelection (Renominated),2863,55,47,TRUE
+46,CA-20,Vincent K. Fong,Male,2024-06-03,1979-10-24,Reelection (Renominated),155,45,45,TRUE
+47,CA-21,James M. Costa,Male,2005-01-03,1952-04-13,Reelection (Renominated),7246,73,53,TRUE
+48,CA-22,David Goncalves Valadao,Male,2021-01-03,1977-04-14,Reelection (Renominated),1402,48,44,TRUE
+49,CA-23,Jay P. Obernolte,Male,2021-01-03,1970-08-18,Reelection (Renominated),1402,54,50,TRUE
+50,CA-24,Salud O. Carbajal,Male,2017-01-03,1964-11-18,Reelection (Renominated),2863,60,52,TRUE
+51,CA-25,Raul Ruiz,Male,2013-01-03,1972-08-25,Reelection (Renominated),4324,52,40,TRUE
+52,CA-26,Julia A. Brownley,Female,2013-01-03,1952-08-28,Reelection (Renominated),4324,72,60,TRUE
+53,CA-27,Michael J. Garcia,Male,2020-05-19,1976-04-24,Reelection (Renominated),1631,49,44,TRUE
+54,CA-28,Judy M. Chu,Female,2009-07-14,1953-07-07,Reelection (Renominated),5593,71,56,TRUE
+55,CA-29,Antonio Cardenas,Male,2013-01-03,1963-03-31,Retired,4324,62,50,TRUE
+56,CA-30,Adam B. Schiff,Male,2001-01-03,1960-06-22,Retired (Higher Office),8707,64,41,TRUE
+57,CA-31,Graciela F. Napolitano,Female,1999-01-03,1936-12-04,Retired,9438,88,62,TRUE
+58,CA-32,Bradley J. Sherman,Male,1997-01-03,1954-10-24,Reelection (Renominated),10168,70,42,TRUE
+59,CA-33,Peter R. Aguilar,Male,2015-01-03,1979-06-19,Reelection (Renominated),3594,45,36,TRUE
+60,CA-34,Jimmy Gomez,Male,2017-07-11,1974-11-25,Reelection (Renominated),2674,50,43,TRUE
+61,CA-35,Norma J. Torres,Female,2015-01-03,1965-04-04,Reelection (Renominated),3594,60,50,TRUE
+62,CA-36,Ted W. Lieu,Male,2015-01-03,1969-03-29,Reelection (Renominated),3594,56,46,TRUE
+63,CA-37,Sydney K. Kamlager-Dove,Female,2023-01-03,1972-07-20,Reelection (Renominated),672,52,50,TRUE
+64,CA-38,Linda T. Sanchez,Female,2003-01-03,1969-01-28,Reelection (Renominated),7977,56,34,TRUE
+65,CA-39,Mark A. Takano,Male,2013-01-03,1960-12-10,Reelection (Renominated),4324,64,52,TRUE
+66,CA-40,Young Oak Kim,Female,2021-01-03,1962-10-18,Reelection (Renominated),1402,62,58,TRUE
+67,CA-41,Kenneth S. Calvert,Male,1993-01-03,1953-06-08,Reelection (Renominated),11629,71,40,TRUE
+68,CA-42,Robert Julio Garcia,Male,2023-01-03,1977-12-02,Reelection (Renominated),672,47,45,TRUE
+69,CA-43,Maxine M. Waters,Female,1991-01-03,1938-08-15,Reelection (Renominated),12360,86,52,TRUE
+70,CA-44,Nanette Diaz Barragan,Female,2017-01-03,1976-09-15,Reelection (Renominated),2863,48,40,TRUE
+71,CA-45,Michelle E. Park Steel,Female,2021-01-03,1955-06-21,Reelection (Renominated),1402,69,66,TRUE
+72,CA-46,J. Luis Correa,Male,2017-01-03,1958-01-24,Reelection (Renominated),2863,67,59,TRUE
+73,CA-47,Katherine M. Porter,Female,2019-01-03,1974-01-03,Retired (Higher Office),2133,51,45,TRUE
+74,CA-48,Darrell I. Issa,Male,2021-01-03,1953-11-01,Reelection (Renominated),1402,71,67,TRUE
+75,CA-49,Michael T. Levin,Male,2019-01-03,1978-10-20,Reelection (Renominated),2133,46,40,TRUE
+76,CA-50,Scott H. Peters,Male,2013-01-03,1958-06-17,Reelection (Renominated),4324,66,55,TRUE
+77,CA-51,Sara Josephine Jacobs,Female,2021-01-03,1989-02-01,Reelection (Renominated),1402,36,32,TRUE
+78,CA-52,Juan C. Vargas,Male,2013-01-03,1961-03-07,Reelection (Renominated),4324,64,52,TRUE
+79,CO-01,Diana L. DeGette,Female,1997-01-03,1957-07-29,Reelection (Renominated),10168,67,39,TRUE
+80,CO-02,Joseph D. Neguse,Male,2019-01-03,1984-05-13,Reelection (Renominated),2133,40,35,TRUE
+81,CO-03,Lauren O. Boebert,Female,2021-01-03,1986-12-19,Reelection (Redistricting; Won Renomination),1402,38,34,TRUE
+82,CO-04,Gregorio B. Lopez,Male,2024-07-08,1964-06-07,Retired,120,60,60,TRUE
+83,CO-05,Douglas L. Lamborn,Male,2007-01-03,1954-05-24,Retired,6516,70,53,TRUE
+84,CO-06,Jason Anderson Utley Crow,Male,2019-01-03,1979-03-15,Reelection (Renominated),2133,46,40,TRUE
+85,CO-07,Brittany L. Pettersen,Female,2023-01-03,1981-12-06,Reelection (Renominated),672,43,41,TRUE
+86,CO-08,Yadira D. Caraveo,Female,2023-01-03,1980-12-23,Reelection (Renominated),672,44,42,TRUE
+87,CT-Sen,Christopher S. Murphy,Male,2013-01-03,1973-08-03,Reelection (Renominated),4324,51,39,TRUE
+88,CT-01,John B. Larson,Male,1999-01-03,1948-07-22,Reelection (Renominated),9438,76,50,TRUE
+89,CT-02,Joseph D. Courtney,Male,2007-01-03,1953-04-06,Reelection (Renominated),6516,72,54,TRUE
+90,CT-03,Rosa L. DeLauro,Female,1991-01-03,1943-03-02,Reelection (Renominated),12360,82,48,TRUE
+91,CT-04,James A. Himes,Male,2009-01-03,1966-07-05,Reelection (Renominated),5785,58,42,TRUE
+92,CT-05,Jahana F. Hayes,Female,2019-01-03,1973-03-08,Reelection (Renominated),2133,52,46,TRUE
+93,DE-Sen,Thomas R. Carper,Male,2001-01-03,1947-01-23,Retired,8707,78,54,TRUE
+94,DE-AL,Lisa L. Blunt Rochester,Female,2017-01-03,1962-02-10,Retired (Higher Office),2863,63,55,TRUE
+95,FL-Sen,Richard L. Scott,Male,2019-01-08,1952-12-01,Reelection (Renominated),2128,72,66,TRUE
+96,FL-01,Matthew L. Gaetz II,Male,2017-01-03,1982-05-07,Reelection (Renominated),2863,42,35,TRUE
+97,FL-02,Neal P. Dunn,Male,2017-01-03,1953-02-16,Reelection (Renominated),2863,72,64,TRUE
+98,FL-03,Kathryn C. Cammack,Female,2021-01-03,1988-02-16,Reelection (Renominated),1402,37,33,TRUE
+99,FL-04,Aaron P. Bean,Male,2023-01-03,1967-01-25,Reelection (Renominated),672,58,56,TRUE
+100,FL-05,John H. Rutherford,Male,2017-01-03,1952-09-02,Reelection (Renominated),2863,72,64,TRUE
+101,FL-06,Michael G.G. Waltz,Male,2019-01-03,1974-01-31,Reelection (Renominated),2133,51,45,TRUE
+102,FL-07,Cory Lee Mills,Male,2023-01-03,1980-07-13,Reelection (Renominated),672,44,42,TRUE
+103,FL-08,William J. Posey,Male,2009-01-03,1947-12-18,Retired,5785,77,61,TRUE
+104,FL-09,Darren M. Soto,Male,2017-01-03,1978-02-25,Reelection (Renominated),2863,47,39,TRUE
+105,FL-10,Maxwell Alejandro Frost,Male,2023-01-03,1997-01-17,Reelection (Renominated),672,28,26,TRUE
+106,FL-11,Daniel A. Webster,Male,2011-01-03,1949-04-27,Reelection (Renominated),5055,76,62,TRUE
+107,FL-12,Gus M. Bilirakis,Male,2007-01-03,1963-02-08,Reelection (Renominated),6516,62,44,TRUE
+108,FL-13,Anna Paulina M. Luna,Female,2023-01-03,1989-05-06,Reelection (Renominated),672,36,34,TRUE
+109,FL-14,Katherine A. Castor,Female,2007-01-03,1966-08-20,Reelection (Renominated),6516,58,40,TRUE
+110,FL-15,Laurel M. Lee,Female,2023-01-03,1974-03-26,Reelection (Renominated),672,51,49,TRUE
+111,FL-16,Vernon G. Buchanan,Male,2019-01-03,1951-05-08,Reelection (Renominated),2133,73,68,TRUE
+112,FL-17,W. Gregory Steube,Male,2019-01-03,1978-05-19,Reelection (Renominated),2133,46,41,TRUE
+113,FL-18,C. Scott Franklin,Male,2021-01-03,1964-08-23,Reelection (Renominated),1402,60,56,TRUE
+114,FL-19,Byron L. Donalds,Male,2021-01-03,1978-10-26,Reelection (Renominated),1402,46,42,TRUE
+115,FL-20,Sheila Cherfilus-McCormick,Female,2022-01-18,1979-01-25,Reelection (Renominated),1022,46,43,TRUE
+116,FL-21,Brian J. Mast,Male,2017-01-03,1980-07-10,Reelection (Renominated),2863,44,36,TRUE
+117,FL-22,Lois J. Frankel,Female,2013-01-03,1948-05-16,Reelection (Renominated),4324,76,65,TRUE
+118,FL-23,Jared E. Moskowitz,Male,2023-01-03,1980-12-18,Reelection (Renominated),672,44,42,TRUE
+119,FL-24,Frederica S. Wilson,Female,2011-01-03,1942-11-05,Reelection (Renominated),5055,82,68,TRUE
+120,FL-25,Deborah Wasserman Schultz,Female,2005-01-03,1966-09-27,Reelection (Renominated),7246,58,38,TRUE
+121,FL-26,Mario R. Diaz-Balart,Male,2003-01-03,1961-09-25,Reelection (Renominated),7977,63,41,TRUE
+122,FL-27,Maria Elvira Salazar,Female,2021-01-03,1961-11-01,Reelection (Renominated),1402,63,59,TRUE
+123,FL-28,Carlos A. Gimenez,Male,2021-01-03,1954-01-17,Reelection (Renominated),1402,71,67,TRUE
+124,GA-01,"Earl L. ""Buddy"" Carter",Male,2015-01-03,1957-09-06,Reelection (Renominated),3594,67,57,TRUE
+125,GA-02,"Sanford D. Bishop, Jr.",Male,1993-01-03,1947-02-04,Reelection (Renominated),11629,78,46,TRUE
+126,GA-03,A. Drew Ferguson IV,Male,2017-01-03,1966-11-15,Retired,2863,58,50,TRUE
+127,GA-04,"Henry C. Johnson, Jr.",Male,2007-01-03,1954-10-02,Reelection (Renominated),6516,70,52,TRUE
+128,GA-05,Nikema N. Williams,Female,2021-01-03,1978-07-30,Reelection (Renominated),1402,46,42,TRUE
+129,GA-06,Lucia K. McBath,Female,2019-01-03,1968-10-07,Reelection (Renominated),2133,56,50,TRUE
+130,GA-07,Richard D. McCormick,Male,2023-01-03,1960-06-01,Reelection (Renominated),672,64,63,TRUE
+131,GA-08,J. Austin Scott,Male,2011-01-03,1969-12-10,Reelection (Renominated),5055,55,41,TRUE
+132,GA-09,Andrew S. Clyde,Male,2021-01-03,1963-11-22,Reelection (Renominated),1402,61,57,TRUE
+133,GA-10,Michael A. Collins,Male,2023-01-03,1967-07-02,Reelection (Renominated),672,57,56,TRUE
+134,GA-11,Barry D. Loudermilk,Male,2015-01-03,1963-12-22,Reelection (Renominated),3594,61,51,TRUE
+135,GA-12,Richard W. Allen,Male,2015-01-03,1951-11-07,Reelection (Renominated),3594,73,63,TRUE
+136,GA-13,David A. Scott,Male,2003-01-03,1945-06-27,Reelection (Renominated),7977,79,58,TRUE
+137,GA-14,Marjorie Taylor Greene,Female,2021-01-03,1974-05-27,Reelection (Renominated),1402,50,47,TRUE
+138,HI-Sen,Mazie K. Hirono,Female,2013-01-03,1947-11-03,Reelection (Renominated),4324,77,65,TRUE
+139,HI-01,Edward E. Case,Male,2019-01-03,1952-09-27,Reelection (Renominated),2133,72,66,TRUE
+140,HI-02,Jill N. Tokuda,Female,2023-01-03,1976-03-03,Reelection (Renominated),672,49,47,TRUE
+141,ID-01,Russell M. Fulcher,Male,2019-01-03,1962-03-09,Reelection (Renominated),2133,63,57,TRUE
+142,ID-02,Michael K. Simpson,Male,1999-01-03,1950-09-08,Reelection (Renominated),9438,74,48,TRUE
+143,IL-01,Jonathan L. Jackson,Male,2023-01-03,1966-01-07,Reelection (Renominated),672,59,57,TRUE
+144,IL-02,Robin L. Kelly,Female,2013-04-11,1956-04-30,Reelection (Renominated),4226,69,57,TRUE
+145,IL-03,Delia C. Ramirez,Female,2023-01-03,1983-06-02,Reelection (Renominated),672,41,40,TRUE
+146,IL-04,Jesús G. “Chuy” García,Male,2019-01-03,1956-04-12,Reelection (Renominated),2133,69,63,TRUE
+147,IL-05,Michael B. Quigley,Male,2009-04-07,1958-10-17,Reelection (Renominated),5691,66,50,TRUE
+148,IL-06,Sean T. Casten,Male,2019-01-03,1971-11-23,Reelection (Renominated),2133,53,47,TRUE
+149,IL-07,Danny K. Davis,Male,1997-01-03,1941-09-06,Reelection (Renominated),10168,83,55,TRUE
+150,IL-08,S. Raja Krishnamoorthi,Male,2017-01-03,1973-07-19,Reelection (Renominated),2863,51,43,TRUE
+151,IL-09,Janice D. Schakowsky,Female,1999-01-03,1944-05-26,Reelection (Renominated),9438,80,55,TRUE
+152,IL-10,Bradley S. Schneider,Male,2017-01-03,1961-08-20,Reelection (Renominated),2863,63,55,TRUE
+153,IL-11,G. William Foster,Male,2013-01-03,1955-10-07,Reelection (Renominated),4324,69,57,TRUE
+154,IL-12,Michael J. Bost,Male,2015-01-03,1960-12-30,Reelection (Renominated),3594,64,54,TRUE
+155,IL-13,Nicole J. Budzinski,Female,2023-01-03,1977-03-11,Reelection (Renominated),672,48,46,TRUE
+156,IL-14,Lauren A. Underwood,Female,2019-01-03,1986-10-04,Reelection (Renominated),2133,38,32,TRUE
+157,IL-15,Mary E. Miller,Female,2021-01-03,1959-08-27,Reelection (Renominated),1402,65,61,TRUE
+158,IL-16,Darin M. LaHood,Male,2015-09-17,1968-07-05,Reelection (Renominated),3337,56,47,TRUE
+159,IL-17,Eric G. Sorenson,Male,2023-01-03,1976-03-18,Reelection (Renominated),672,49,47,TRUE
+160,IN-Sen,Michael K. Braun,Male,2019-01-03,1954-03-24,Retired (Higher Office),2133,71,65,TRUE
+161,IN-01,Frank J. Mrvan,Male,2021-01-03,1969-04-16,Reelection (Renominated),1402,56,52,TRUE
+162,IN-02,Rudolph C. Yakym III,Male,2022-11-14,1984-02-24,Reelection (Renominated),722,41,39,TRUE
+163,IN-03,James E. Banks,Male,2017-01-03,1979-07-16,Retired (Higher Office),2863,45,37,TRUE
+164,IN-04,James R. Baird,Male,2019-01-03,1945-06-04,Reelection (Renominated),2133,79,74,TRUE
+165,IN-05,Victoria K. Spartz,Female,2021-01-03,1978-10-06,Reelection (Renominated),1402,46,42,TRUE
+166,IN-06,Gregory J. Pence,Male,2019-01-03,1956-11-14,Retired,2133,68,62,TRUE
+167,IN-07,Andre D. Carson,Male,2008-03-11,1974-10-16,Reelection (Renominated),6083,50,33,TRUE
+168,IN-08,Larry D. Bucshon,Male,2011-01-03,1962-05-31,Retired,5055,62,49,TRUE
+169,IN-09,Erin S. Houchin,Female,2023-01-03,1976-09-24,Reelection (Renominated),672,48,46,TRUE
+170,IA-01,Mariannette J. Miller-Meeks,Female,2021-01-03,1955-09-06,Reelection (Renominated),1402,69,65,TRUE
+171,IA-02,Ashley E. Hinson Arenholz,Female,2021-01-03,1983-06-27,Reelection (Renominated),1402,41,38,TRUE
+172,IA-03,Zachary M. Nunn,Male,2023-01-03,1979-05-04,Reelection (Renominated),672,46,44,TRUE
+173,IA-04,Randall L. Fenstra,Male,2021-01-03,1969-01-14,Reelection (Renominated),1402,56,52,TRUE
+174,KS-01,Tracey R. Mann,Male,2021-01-03,1976-12-17,Reelection (Renominated),1402,48,44,TRUE
+175,KS-02,Jacob A.J. LaTurner,Male,2021-01-03,1988-02-17,Retired,1402,37,33,TRUE
+176,KS-03,Sharice L. Davids,Female,2019-01-03,1980-05-22,Reelection (Renominated),2133,44,39,TRUE
+177,KS-04,Ronald G. Estes,Male,2017-04-25,1956-07-19,Reelection (Renominated),2751,68,61,TRUE
+178,KY-01,"James R. Comer, Jr.",Male,2016-11-08,1972-08-19,Reelection (Renominated),2919,52,44,TRUE
+179,KY-02,S. Brett Guthrie,Male,2009-01-03,1964-02-18,Reelection (Renominated),5785,61,45,TRUE
+180,KY-03,J. Morgan McGarvey,Male,2023-01-03,1979-12-23,Reelection (Renominated),672,45,43,TRUE
+181,KY-04,Thomas H. Massie,Male,2012-11-13,1971-01-13,Reelection (Renominated),4375,54,42,TRUE
+182,KY-05,Harold D. Rogers,Male,1981-01-03,1937-12-31,Reelection (Renominated),16012,87,43,TRUE
+183,KY-06,"Garland H. ""Andy"" Barr IV",Male,2013-01-03,1973-07-24,Reelection (Renominated),4324,51,39,TRUE
+184,LA-01,Stephen J. Scalise,Male,2008-05-03,1965-10-06,Reelection (Renominated),6030,59,43,TRUE
+185,LA-02,"Troy A. Carter, Sr.",Male,2021-05-11,1963-10-26,Reelection (Renominated),1274,61,58,TRUE
+186,LA-03,G. Clay Higgins,Male,2017-01-03,1961-08-24,Reelection (Renominated),2863,63,55,TRUE
+187,LA-04,J. Michael Johnson,Male,2017-01-03,1972-01-30,Reelection (Renominated),2863,53,45,TRUE
+188,LA-05,Julia J. Letlow,Female,2021-04-14,1981-03-16,Reelection (Renominated),1301,44,40,TRUE
+189,LA-06,Garret N. Graves,Male,2015-01-03,1972-01-31,Retired (Redistricting),3594,53,43,TRUE
+190,ME-Sen,"Angus S. King, Jr.",Male,2013-01-03,1944-03-31,Reelection (Renominated),4324,81,69,TRUE
+191,ME-01,"Rochelle M. ""Chellie"" Pingree",Female,2009-01-03,1955-04-02,Reelection (Renominated),5785,70,54,TRUE
+192,ME-02,Jared F. Golden,Male,2019-01-03,1982-07-25,Reelection (Renominated),2133,42,36,TRUE
+193,ME-02 (Instant Runoff),Jared F. Golden,Male,2019-01-03,1982-07-25,Reelection (Renominated),2133,42,36,TRUE
+194,MD-Sen,Benjamin L. Cardin,Male,2007-01-03,1943-10-05,Retired,6516,81,63,TRUE
+195,MD-01,Andrew P. Harris,Male,2011-01-03,1957-01-25,Reelection (Renominated),5055,68,54,TRUE
+196,MD-02,"Charles A. ""Dutch"" Ruppersberger III",Male,2003-01-03,1946-01-31,Retired,7977,79,57,TRUE
+197,MD-03,John P.S. Sarbanes,Male,2007-01-03,1962-05-22,Retired,6516,62,45,TRUE
+198,MD-04,Glenn F. Ivey,Male,2023-01-03,1961-02-27,Reelection (Renominated),672,64,62,TRUE
+199,MD-05,Steny H. Hoyer,Male,1981-05-19,1939-06-14,Reelection (Renominated),15876,85,42,TRUE
+200,MD-06,David J. Trone,Male,2019-01-03,1955-09-21,Retired (Higher Office),2133,69,63,TRUE
+201,MD-07,Kweisi Mfume,Male,2020-05-05,1948-10-24,Reelection (Renominated),1645,76,72,TRUE
+202,MD-08,Jamin B. Raskin,Male,2017-01-03,1962-12-13,Reelection (Renominated),2863,62,54,TRUE
+203,MA-Sen,Elizabeth A. Warren,Female,2013-01-03,1949-06-22,Reelection (Renominated),4324,75,64,TRUE
+204,MA-01,Richard E. Neal,Male,1989-01-03,1949-02-14,Reelection (Renominated),13090,76,40,TRUE
+205,MA-02,James P. McGovern,Male,1997-01-03,1959-11-20,Reelection (Renominated),10168,65,37,TRUE
+206,MA-03,Lori Loureiro A. Trahan,Female,2019-01-03,1973-10-27,Reelection (Renominated),2133,51,45,TRUE
+207,MA-04,Jacob D. Auchincloss,Male,2021-01-03,1988-01-29,Reelection (Renominated),1402,37,33,TRUE
+208,MA-05,Katherine M. Clark,Female,2013-12-12,1963-07-17,Reelection (Renominated),3981,61,50,TRUE
+209,MA-06,Seth W. Moulton,Male,2015-01-03,1978-10-24,Reelection (Renominated),3594,46,36,TRUE
+210,MA-07,Ayanna S. Pressley,Female,2019-01-03,1974-02-03,Reelection (Renominated),2133,51,45,TRUE
+211,MA-08,Stephen F. Lynch,Male,2001-01-03,1955-03-31,Reelection (Renominated),8707,70,46,TRUE
+212,MA-09,William R. Keating,Male,2011-01-03,1952-09-06,Reelection (Renominated),5055,72,58,TRUE
+213,MI-Sen,Deborah Ann Stabenow,Female,2001-01-03,1950-04-29,Retired,8707,75,51,TRUE
+214,MI-01,John W. Bergman,Male,2017-01-03,1947-02-02,Reelection (Renominated),2863,78,70,TRUE
+215,MI-02,John R. Moolenaar,Male,2015-01-03,1961-05-08,Reelection (Renominated),3594,63,54,TRUE
+216,MI-03,Hillary J. Scholten,Female,2023-01-03,1982-02-22,Reelection (Renominated),672,43,41,TRUE
+217,MI-04,William P. Huizenga,Male,2011-01-03,1969-01-31,Reelection (Renominated),5055,56,42,TRUE
+218,MI-05,Timothy L. Walberg,Male,2011-01-03,1951-04-12,Reelection (Renominated),5055,74,60,TRUE
+219,MI-06,Deborah Ann Dingell,Female,2015-01-03,1953-11-23,Reelection (Renominated),3594,71,61,TRUE
+220,MI-07,Elissa B. Slotkin,Female,2019-01-03,1976-07-10,Retired (Higher Office),2133,48,42,TRUE
+221,MI-08,Daniel T. Kildee,Male,2013-01-03,1958-08-11,Retired,4324,66,54,TRUE
+222,MI-09,Lisa C. McClain,Female,2021-01-03,1966-04-07,Reelection (Renominated),1402,59,55,TRUE
+223,MI-10,John E. James,Male,2023-01-03,1981-06-08,Reelection (Renominated),672,43,42,TRUE
+224,MI-11,Haley M. Stevens,Female,2019-01-03,1983-06-24,Reelection (Renominated),2133,41,36,TRUE
+225,MI-12,Rashida H. Tlaib,Female,2019-01-03,1976-07-24,Reelection (Renominated),2133,48,42,TRUE
+226,MI-13,Shri Thanedar,Male,2023-01-03,1955-02-22,Reelection (Renominated),672,70,68,TRUE
+227,MN-Sen,Amy J. Klobuchar,Female,2007-01-03,1960-05-25,Reelection (Renominated),6516,64,47,TRUE
+228,MN-01,Bradley H. Finstad,Male,2022-08-12,1976-05-30,Reelection (Renominated),816,48,46,TRUE
+229,MN-02,Angela D. Craig,Female,2019-01-03,1972-02-14,Reelection (Renominated),2133,53,47,TRUE
+230,MN-03,Dean B. Phillips,Male,2019-01-03,1969-01-20,Retired (Higher Office),2133,56,50,TRUE
+231,MN-04,Betty L. McCollum,Female,2001-01-03,1954-07-12,Reelection (Renominated),8707,70,46,TRUE
+232,MN-05,Ilhan A. Omar,Female,2019-01-03,1982-10-04,Reelection (Renominated),2133,42,36,TRUE
+233,MN-06,"Thomas E. Emmer, Jr.",Male,2015-01-03,1961-03-03,Reelection (Renominated),3594,64,54,TRUE
+234,MN-07,Michelle L.H. Fischbach,Female,2021-01-03,1965-11-03,Reelection (Renominated),1402,59,55,TRUE
+235,MN-08,Peter A. Stauber,Male,2019-01-03,1966-05-10,Reelection (Renominated),2133,58,53,TRUE
+236,MS-Sen,Roger F. Wicker,Male,2007-12-30,1951-07-05,Reelection (Renominated),6155,73,56,TRUE
+237,MS-01,J. Trent Kelly,Male,2015-06-02,1966-03-01,Reelection (Renominated),3444,59,49,TRUE
+238,MS-02,Bennie G. Thompson,Male,1993-04-13,1948-01-28,Reelection (Renominated),11529,77,45,TRUE
+239,MS-03,Michael P. Guest,Male,2019-01-03,1970-02-04,Reelection (Renominated),2133,55,49,TRUE
+240,MS-04,W. Michael Ezell,Male,2023-01-03,1959-04-06,Reelection (Renominated),672,66,64,TRUE
+241,MO-Sen,Joshua D. Hawley,Male,2019-01-03,1979-12-31,Reelection (Renominated),2133,45,39,TRUE
+242,MO-01,Cori A. Bush,Female,2021-01-03,1976-07-21,Reelection (Lost Renomination),1402,48,44,TRUE
+243,MO-02,Ann L. Wagner,Female,2013-01-03,1962-09-13,Reelection (Renominated),4324,62,50,TRUE
+244,MO-03,W. Blaine Luetkemeyer,Male,2009-01-03,1952-05-07,Retired,5785,72,57,TRUE
+245,MO-04,"Mark A. Alford, Sr.",Male,2023-01-03,1963-10-04,Reelection (Renominated),672,61,59,TRUE
+246,MO-05,Emanuel Cleaver II,Male,2005-01-03,1944-10-26,Reelection (Renominated),7246,80,60,TRUE
+247,MO-06,"Samuel B. Graves, Jr.",Male,2001-01-03,1963-11-07,Reelection (Renominated),8707,61,37,TRUE
+248,MO-07,Eric W. Burlison,Male,2023-01-03,1976-10-02,Reelection (Renominated),672,48,46,TRUE
+249,MO-08,Jason T. Smith,Male,2013-06-04,1980-06-16,Reelection (Renominated),4172,44,33,TRUE
+250,MT-Sen,R. Jon Tester,Male,2007-01-03,1956-08-21,Reelection (Renominated),6516,68,50,TRUE
+251,MT-01,Ryan K. Zinke,Male,2023-01-03,1961-11-01,Reelection (Renominated),672,63,61,TRUE
+252,MT-02,"Matthew M. Rosendale, Sr.",Male,2021-01-03,1960-07-07,Retired,1402,64,60,TRUE
+253,NE-Sen (Special),J. Peter Ricketts,Male,2023-01-12,1964-08-19,Reelection (Renominated),663,60,58,TRUE
+254,NE-Sen,Debra L. Fischer,Female,2015-01-03,1951-03-01,Reelection (Renominated),3594,74,64,TRUE
+255,NE-01,Michael J. Flood,Male,2022-07-12,1975-02-23,Reelection (Renominated),847,50,47,TRUE
+256,NE-02,Donald J. Bacon,Male,2017-01-03,1963-08-16,Reelection (Renominated),2863,61,53,TRUE
+257,NE-03,Adrian M. Smith,Male,2007-01-03,1970-12-19,Reelection (Renominated),6516,54,36,TRUE
+258,NV-Sen,Jacklyn S. Rosen,Female,2019-01-03,1957-08-02,Reelection (Renominated),2133,67,61,TRUE
+259,NV-01,A. Constandina Titus,Female,2013-01-03,1950-05-23,Reelection (Renominated),4324,74,63,TRUE
+260,NV-02,Mark E. Amodei,Male,2011-09-13,1958-06-12,Reelection (Renominated),4802,66,53,TRUE
+261,NV-03,Suzanne M. Lee,Female,2019-01-03,1966-11-07,Reelection (Renominated),2133,58,52,TRUE
+262,NV-04,Steven A. Horsford,Male,2019-01-03,1973-04-29,Reelection (Renominated),2133,52,46,TRUE
+263,NH-01,Christopher C. Pappas,Male,2019-01-03,1980-06-04,Reelection (Renominated),2133,44,39,TRUE
+264,NH-02,Ann L. McLane Kuster,Female,2013-01-03,1956-09-05,Retired,4324,68,56,TRUE
+265,NJ-Sen,George S. Helmy,Male,2024-09-09,1979-10-27,Retired,57,45,45,TRUE
+266,NJ-01,Donald W. Norcross,Male,2014-11-12,1958-12-13,Reelection (Renominated),3646,66,56,TRUE
+267,NJ-02,Jefferson H. Van Drew,Male,2019-01-03,1953-02-23,Reelection (Renominated),2133,72,66,TRUE
+268,NJ-03,Andrew Kim,Male,2019-01-03,1982-07-12,Retired (Higher Office),2133,42,36,TRUE
+269,NJ-04,Christopher H. Smith,Male,1981-01-03,1953-03-04,Reelection (Renominated),16012,72,28,TRUE
+270,NJ-05,Joshua S. Gottheimer,Male,2017-01-03,1975-03-08,Reelection (Renominated),2863,50,42,TRUE
+271,NJ-06,"Frank J. Pallone, Jr.",Male,1988-11-08,1951-10-30,Reelection (Renominated),13146,73,37,TRUE
+272,NJ-07,"Thomas H. Kean, Jr.",Male,2019-01-03,1968-09-05,Reelection (Renominated),2133,56,50,TRUE
+273,NJ-08,"Robert J. Menendez, Jr.",Male,2019-01-03,1985-07-12,Reelection (Renominated),2133,39,33,TRUE
+274,NJ-09,"William J. Pascrell, Jr.",Male,1997-01-03,1937-01-25,Death,10168,88,60,TRUE
+275,NJ-10,LaMonica R. McIver,Female,2024-09-23,1986-06-20,Reelection (Renominated),43,38,38,TRUE
+276,NJ-11,R. Michelle Sherrill,Female,2019-01-03,1972-01-19,Reelection (Renominated),2133,53,47,TRUE
+277,NJ-12,Bonnie M. Watson Coleman,Female,2015-01-03,1945-02-06,Reelection (Renominated),3594,80,70,TRUE
+278,NM-Sen,Martin T. Heinrich,Male,2013-01-03,1971-10-17,Reelection (Renominated),4324,53,41,TRUE
+279,NM-01,Melanie Ann Stansbury,Female,2021-06-14,1979-01-31,Reelection (Renominated),1240,46,42,TRUE
+280,NM-02,Gabriel L. Vasquez,Male,2023-01-03,1984-08-03,Reelection (Renominated),672,40,38,TRUE
+281,NM-03,Teresa I. Leger Fernandez,Female,2021-01-03,1959-07-01,Reelection (Renominated),1402,65,62,TRUE
+282,NY-Sen,Kirsten E. Gillibrand,Female,2009-01-26,1966-12-09,Reelection (Renominated),5762,58,42,TRUE
+283,NY-01,Nicholas J. LaLota,Male,2023-01-03,1978-06-23,Reelection (Renominated),672,46,45,TRUE
+284,NY-02,Andrew R. Garbarino,Male,2021-01-03,1984-09-27,Reelection (Renominated),1402,40,36,TRUE
+285,NY-03,Thomas R. Suozzi,Male,2024-02-28,1962-08-31,Reelection (Renominated),251,62,61,TRUE
+286,NY-04,Anthony P. D'Esposito,Male,2023-01-03,1982-02-22,Reelection (Renominated),672,43,41,TRUE
+287,NY-05,Gregory W. Meeks,Male,1998-02-05,1953-09-25,Reelection (Renominated),9770,71,44,TRUE
+288,NY-06,Grace Meng,Female,2013-01-03,1975-10-01,Reelection (Renominated),4324,49,37,TRUE
+289,NY-07,Nydia M. Velázquez,Female,1993-01-03,1953-03-28,Reelection (Renominated),11629,72,40,TRUE
+290,NY-08,Hakeem S. Jeffries,Male,2013-01-03,1970-08-04,Reelection (Renominated),4324,54,42,TRUE
+291,NY-09,Yvette D. Clarke,Female,2007-01-03,1964-11-21,Reelection (Renominated),6516,60,42,TRUE
+292,NY-10,Daniel Sachs Goldman,Male,2023-01-03,1976-02-26,Reelection (Renominated),672,49,47,TRUE
+293,NY-11,Nicole Malliotakis,Female,2021-01-03,1980-11-11,Reelection (Renominated),1402,44,40,TRUE
+294,NY-12,Jerrold L. Nadler,Male,1992-11-03,1947-06-13,Reelection (Renominated),11690,77,45,TRUE
+295,NY-13,Adriano de Jesús Espaillat,Male,2017-01-03,1954-09-27,Reelection (Renominated),2863,70,62,TRUE
+296,NY-14,Alexandria Ocasio-Cortez,Female,2019-01-03,1989-10-13,Reelection (Renominated),2133,35,29,TRUE
+297,NY-15,Ritchie J. Torres,Male,2021-01-03,1988-03-12,Reelection (Renominated),1402,37,33,TRUE
+298,NY-16,Jamaal A. Bowman,Male,2021-01-03,1976-04-01,Reelection (Lost Renomination),1402,49,45,TRUE
+299,NY-17,Michael V. Lawler,Male,2023-01-03,1986-09-09,Reelection (Renominated),672,38,36,TRUE
+300,NY-18,Patrick K. Ryan,Male,2022-09-13,1982-03-28,Reelection (Renominated),784,43,40,TRUE
+301,NY-19,Marcus J. Molinaro,Male,2023-01-03,1975-10-08,Reelection (Renominated),672,49,47,TRUE
+302,NY-20,Paul D. Tonko,Male,2009-01-03,1949-06-18,Reelection (Renominated),5785,75,60,TRUE
+303,NY-21,Elise M. Stefanik,Female,2015-01-03,1984-07-02,Reelection (Renominated),3594,40,31,TRUE
+304,NY-22,Brandon M. Williams,Male,2023-01-03,1967-05-22,Reelection (Renominated),672,57,56,TRUE
+305,NY-23,Nicholas A. Langworthy,Male,2023-01-03,1981-02-27,Reelection (Renominated),672,44,42,TRUE
+306,NY-24,Claudia L. Tenney,Female,2021-01-03,1961-02-04,Reelection (Renominated),1402,64,60,TRUE
+307,NY-25,Joseph D. Morelle,Male,2018-11-13,1957-04-29,Reelection (Renominated),2184,68,62,TRUE
+308,NY-26,Timothy M. Kennedy,Male,2024-05-06,1976-10-20,Reelection (Renominated),183,48,48,TRUE
+309,NC-01,Donald G. Davis,Male,2021-01-03,1971-08-29,Reelection (Renominated),1402,53,49,TRUE
+310,NC-02,Deborah K. Ross,Female,2021-01-03,1963-06-20,Reelection (Renominated),1402,61,58,TRUE
+311,NC-03,Gregory F. Murphy,Male,2019-09-17,1963-03-05,Reelection (Renominated),1876,62,57,TRUE
+312,NC-04,Valerie P. Foushee,Female,2023-01-03,1956-05-07,Reelection (Renominated),672,68,67,TRUE
+313,NC-05,Virginia Ann Foxx,Female,2005-01-03,1943-06-29,Reelection (Renominated),7246,81,62,TRUE
+314,NC-06,Kathy E. Manning,Female,2021-01-03,1956-12-03,Retired (Redistricting),1402,68,64,TRUE
+315,NC-07,David C. Rouzer,Male,2015-01-03,1972-02-16,Reelection (Renominated),3594,53,43,TRUE
+316,NC-08,J. Daniel Bishop,Male,2019-09-17,1964-07-01,Retired (Higher Office),1876,60,55,TRUE
+317,NC-09,"Richard L. Hudson, Jr.",Male,2013-01-03,1971-11-04,Reelection (Renominated),4324,53,41,TRUE
+318,NC-10,Patrick T. McHenry,Male,2005-01-03,1975-10-22,Retired,7246,49,29,TRUE
+319,NC-11,Charles Marion Edwards,Male,2023-01-03,1960-09-13,Reelection (Renominated),672,64,62,TRUE
+320,NC-12,Alma S. Adams,Female,2014-11-12,1946-05-27,Reelection (Renominated),3646,78,68,TRUE
+321,NC-13,G. Wilmarth Nickel III,Male,2023-01-03,1975-11-23,Retired (Redistricting),672,49,47,TRUE
+322,NC-14,Jeffrey N. Jackson,Male,2023-01-03,1982-09-12,Retired (Higher Office),672,42,40,TRUE
+323,ND-Sen,Kevin J. Cramer,Male,2019-01-03,1961-01-21,Reelection (Renominated),2133,64,58,TRUE
+324,ND-AL,Kelly M. Armstrong,Male,2019-01-03,1976-10-08,Retired (Higher Office),2133,48,42,TRUE
+325,OH-Sen,Sherrod C. Brown,Male,2007-01-03,1952-11-09,Reelection (Renominated),6516,72,54,TRUE
+326,OH-01,Gregory J. Landsman,Male,2023-01-03,1976-12-04,Reelection (Renominated),672,48,46,TRUE
+327,OH-02,Brad R. Wenstrup,Male,2013-01-03,1958-06-17,Retired,4324,66,55,TRUE
+328,OH-03,Joyce M. Beatty,Female,2013-01-03,1950-03-12,Reelection (Renominated),4324,75,63,TRUE
+329,OH-04,James D. Jordan,Male,2007-01-03,1964-02-17,Reelection (Renominated),6516,61,43,TRUE
+330,OH-05,Robert E. Latta,Male,2007-12-13,1956-04-18,Reelection (Renominated),6172,69,52,TRUE
+331,OH-06,Michael A. Rulli,Male,2024-06-25,1969-03-11,Reelection (Renominated),133,56,55,TRUE
+332,OH-07,Max L. Miller,Male,2023-01-03,1988-11-13,Reelection (Renominated),672,36,34,TRUE
+333,OH-08,Warren E. Davidson,Male,2016-06-09,1970-03-01,Reelection (Renominated),3071,55,46,TRUE
+334,OH-09,Marcia C. Kaptur,Female,1983-01-03,1946-06-17,Reelection (Renominated),15282,78,37,TRUE
+335,OH-10,Michael R. Turner,Male,2003-01-03,1960-01-11,Reelection (Renominated),7977,65,43,TRUE
+336,OH-11,Shontel M. Brown,Female,2021-11-04,1975-06-24,Reelection (Renominated),1097,49,46,TRUE
+337,OH-12,W. Troy Balderson,Male,2018-09-05,1962-01-16,Reelection (Renominated),2253,63,57,TRUE
+338,OH-13,Emilia Strong Sykes,Female,2023-01-03,1986-01-04,Reelection (Renominated),672,39,37,TRUE
+339,OH-14,David P. Joyce,Male,2013-01-03,1957-03-17,Reelection (Renominated),4324,68,56,TRUE
+340,OH-15,Michael T.W. Carey,Male,2021-11-04,1971-03-13,Reelection (Renominated),1097,54,51,TRUE
+341,OK-01,Kevin R. Hern,Male,2018-11-13,1961-12-04,Reelection (Renominated),2184,63,57,TRUE
+342,OK-02,Joshua C. Brecheen,Male,2023-01-03,1979-06-19,Reelection (Renominated),672,45,44,TRUE
+343,OK-03,Frank D. Lucas,Male,1994-05-10,1960-01-06,Reelection (Renominated),11137,65,34,TRUE
+344,OK-04,Thomas J. Cole,Male,2003-01-03,1949-04-28,Reelection (Renominated),7977,76,54,TRUE
+345,OK-05,Stephanie I. Bice,Female,2021-01-03,1973-11-11,Reelection (Renominated),1402,51,47,TRUE
+346,OR-01,Suzanne M. Bonamici,Female,2012-01-31,1954-10-14,Reelection (Renominated),4662,70,57,TRUE
+347,OR-02,Cliff S. Bentz,Male,2021-01-03,1952-01-12,Reelection (Renominated),1402,73,69,TRUE
+348,OR-03,Earl F. Blumenauer,Male,1996-05-21,1948-08-16,Retired,10395,76,48,TRUE
+349,OR-04,Valerie T. Hoyle,Female,2023-01-03,1964-02-14,Reelection (Renominated),672,61,59,TRUE
+350,OR-05,Lori M. Chavez-DeRemer,Female,2023-01-03,1968-04-07,Reelection (Renominated),672,57,55,TRUE
+351,OR-06,Andrea R. Salinas,Female,2023-01-03,1969-12-06,Reelection (Renominated),672,55,53,TRUE
+352,PA-Sen,"Robert P. Casey, Jr.",Male,2007-01-03,1960-04-13,Reelection (Renominated),6516,65,47,TRUE
+353,PA-01,Brian K. Fitzpatrick,Male,2017-01-03,1973-12-17,Reelection (Renominated),2863,51,43,TRUE
+354,PA-02,Brendan F. Boyle,Male,2015-01-03,1977-02-06,Reelection (Renominated),3594,48,38,TRUE
+355,PA-03,Dwight Evans,Male,2016-11-14,1954-05-16,Reelection (Renominated),2913,70,62,TRUE
+356,PA-04,Madeleine Dean Cunnane,Female,2019-01-03,1959-06-06,Reelection (Renominated),2133,65,60,TRUE
+357,PA-05,Mary Gay Scanlon,Female,2018-11-13,1959-08-30,Reelection (Renominated),2184,65,59,TRUE
+358,PA-06,Christina M. Houlahan,Female,2019-01-03,1967-06-05,Reelection (Renominated),2133,57,52,TRUE
+359,PA-07,Susan E. Wild,Female,2018-11-27,1957-06-07,Reelection (Renominated),2170,67,61,TRUE
+360,PA-08,Matthew A. Cartwright,Male,2013-01-03,1961-05-01,Reelection (Renominated),4324,64,52,TRUE
+361,PA-09,Daniel P. Meuser,Male,2019-01-03,1964-02-10,Reelection (Renominated),2133,61,55,TRUE
+362,PA-10,Scott G. Perry,Male,2013-01-03,1962-05-27,Reelection (Renominated),4324,62,51,TRUE
+363,PA-11,Lloyd K. Smucker,Male,2017-01-03,1964-01-23,Reelection (Renominated),2863,61,53,TRUE
+364,PA-12,Summer L. Lee,Female,2023-01-03,1987-11-26,Reelection (Renominated),672,37,35,TRUE
+365,PA-13,John P. Joyce,Male,2019-01-03,1957-02-08,Reelection (Renominated),2133,68,62,TRUE
+366,PA-14,Guy L. Reschenthaler,Male,2019-01-03,1983-04-17,Reelection (Renominated),2133,42,36,TRUE
+367,PA-15,"Glenn W. Thompson, Jr.",Male,2009-01-03,1959-07-27,Reelection (Renominated),5785,65,49,TRUE
+368,PA-16,"George J. ""Mike"" Kelly, Jr.",Male,2011-01-03,1948-05-10,Reelection (Renominated),5055,76,63,TRUE
+369,PA-17,Christopher R. Deluzio,Male,2023-01-03,1984-07-13,Reelection (Renominated),672,40,38,TRUE
+370,RI-Sen,Sheldon Whitehouse,Male,2007-01-03,1955-10-20,Reelection (Renominated),6516,69,51,TRUE
+371,RI-01,Gabriel F.K. Amo,Male,2023-11-13,1987-12-11,Reelection (Renominated),358,37,36,TRUE
+372,RI-02,Seth M. Magaziner,Male,2023-01-03,1983-07-22,Reelection (Renominated),672,41,39,TRUE
+373,SC-01,Nancy R. Mace,Female,2021-01-03,1977-12-04,Reelection (Renominated),1402,47,43,TRUE
+374,SC-02,"Addison G. ""Joe"" Wilson",Male,2001-12-18,1947-07-31,Reelection (Renominated),8358,77,54,TRUE
+375,SC-03,Jeffrey D. Duncan,Male,2011-01-03,1966-01-07,Retired,5055,59,45,TRUE
+376,SC-04,William R. Timmons IV,Male,2019-01-03,1984-04-30,Reelection (Renominated),2133,41,35,TRUE
+377,SC-05,"Ralph W. Norman, Jr.",Male,2017-06-20,1953-06-20,Reelection (Renominated),2695,71,64,TRUE
+378,SC-06,James E. Clyburn,Male,1993-01-03,1940-07-21,Reelection (Renominated),11629,84,52,TRUE
+379,SC-07,Russell W. Fry,Male,2023-01-03,1985-01-31,Reelection (Renominated),672,40,38,TRUE
+380,SD-AL,Dustin M. Johnson,Male,2019-01-03,1976-09-30,Reelection (Renominated),2133,48,42,TRUE
+381,TN-Sen,M. Marsha Blackburn,Female,2019-01-03,1952-06-06,Reelection (Renominated),2133,72,67,TRUE
+382,TN-01,Diana L. Harshbarger,Female,2021-01-03,1960-01-01,Reelection (Renominated),1402,65,61,TRUE
+383,TN-02,Timothy F. Burchett,Male,2019-01-03,1964-08-25,Reelection (Renominated),2133,60,54,TRUE
+384,TN-03,Charles J. Fleischmann,Male,2011-01-03,1962-10-11,Reelection (Renominated),5055,62,48,TRUE
+385,TN-04,Scott E. DesJarlais,Male,2011-01-03,1964-02-21,Reelection (Renominated),5055,61,47,TRUE
+386,TN-05,W. Andrew Ogles IV,Male,2023-01-03,1971-06-18,Reelection (Renominated),672,53,52,TRUE
+387,TN-06,John W. Rose,Male,2019-01-03,1965-02-23,Reelection (Renominated),2133,60,54,TRUE
+388,TN-07,Mark E. Green,Male,2019-01-03,1964-11-08,Reelection (Renominated),2133,60,54,TRUE
+389,TN-08,David F. Kustoff,Male,2017-01-03,1966-10-08,Reelection (Renominated),2863,58,50,TRUE
+390,TN-09,Stephen I. Cohen,Male,2007-01-03,1949-05-24,Reelection (Renominated),6516,75,58,TRUE
+391,TX-Sen,R. Edward Cruz,Male,2013-01-03,1970-12-22,Reelection (Renominated),4324,54,42,TRUE
+392,TX-01,Nathaniel Q. Moran,Male,2023-01-03,1974-09-23,Reelection (Renominated),672,50,48,TRUE
+393,TX-02,Daniel R. Crenshaw,Male,2019-01-03,1984-03-14,Reelection (Renominated),2133,41,35,TRUE
+394,TX-03,Keith A. Self,Male,2023-01-03,1953-03-20,Reelection (Renominated),672,72,70,TRUE
+395,TX-04,Patrick E. Fallon,Male,2021-01-03,1967-12-19,Reelection (Renominated),1402,57,53,TRUE
+396,TX-05,Lance C. Gooden,Male,2019-01-03,1982-12-01,Reelection (Renominated),2133,42,36,TRUE
+397,TX-06,"John K. ""Jake"" Ellzey, Sr.",Male,2021-07-30,1970-01-24,Reelection (Renominated),1194,55,52,TRUE
+398,TX-07,Elizabeth Ann Fletcher,Female,2019-01-03,1975-02-13,Reelection (Renominated),2133,50,44,TRUE
+399,TX-08,Morgan J. Luttrell,Male,2023-01-03,1975-11-07,Reelection (Renominated),672,49,47,TRUE
+400,TX-09,Alexander N. Green,Male,2005-01-03,1947-09-01,Reelection (Renominated),7246,77,57,TRUE
+401,TX-10,Michael T. McCaul,Male,2005-01-03,1962-01-14,Reelection (Renominated),7246,63,43,TRUE
+402,TX-11,August L. Pfluger,Male,2021-01-03,1978-12-28,Reelection (Renominated),1402,46,42,TRUE
+403,TX-12,N. Kay Granger,Female,1997-01-03,1943-01-18,Retired,10168,82,54,TRUE
+404,TX-13,Ronny L. Jackson,Male,2021-01-03,1967-05-04,Reelection (Renominated),1402,58,54,TRUE
+405,TX-14,Randall K. Weber,Male,2013-01-03,1953-07-02,Reelection (Renominated),4324,71,60,TRUE
+406,TX-15,Monica De La Cruz,Female,2023-01-03,1974-11-11,Reelection (Renominated),672,50,48,TRUE
+407,TX-16,Veronica Escobar,Female,2019-01-03,1969-09-15,Reelection (Renominated),2133,55,49,TRUE
+408,TX-17,Peter A. Sessions,Male,2021-01-03,1955-03-22,Reelection (Renominated),1402,70,66,TRUE
+409,TX-18 (Special),Sheila Jackson Lee,Female,1995-01-03,1950-01-12,Death,10899,75,45,TRUE
+410,TX-18,Sheila Jackson Lee,Female,1995-01-03,1950-01-12,Death,10899,75,45,TRUE
+411,TX-19,Jodey C. Arrington,Male,2017-01-03,1972-03-09,Reelection (Renominated),2863,53,45,TRUE
+412,TX-20,Joaquin Castro,Male,2013-01-03,1974-09-16,Reelection (Renominated),4324,50,38,TRUE
+413,TX-21,"Charles E. ""Chip"" Roy",Male,2019-01-03,1972-08-07,Reelection (Renominated),2133,52,46,TRUE
+414,TX-22,Troy E. Nehls,Male,2021-01-03,1968-04-07,Reelection (Renominated),1402,57,53,TRUE
+415,TX-23,E. Anthony Gonzales II,Male,2021-01-03,1980-10-10,Reelection (Renominated),1402,44,40,TRUE
+416,TX-24,Elizabeth Ann Van Duyne,Female,2021-01-03,1970-11-16,Reelection (Renominated),1402,54,50,TRUE
+417,TX-25,J. Roger Williams,Male,2013-01-03,1949-09-13,Reelection (Renominated),4324,75,63,TRUE
+418,TX-26,Michael C. Burgess,Male,2003-01-03,1950-12-23,Retired,7977,74,52,TRUE
+419,TX-27,Michael J. Cloud,Male,2018-07-10,1975-05-13,Reelection (Renominated),2310,49,43,TRUE
+420,TX-28,"Enrique R. ""Henry"" Cuellar",Male,2005-01-03,1955-09-19,Reelection (Renominated),7246,69,49,TRUE
+421,TX-29,Sylvia R. Garcia,Female,2019-01-03,1950-09-06,Reelection (Renominated),2133,74,68,TRUE
+422,TX-30,Jasmine F. Crockett,Female,2023-01-03,1981-03-29,Reelection (Renominated),672,44,42,TRUE
+423,TX-31,John R. Carter,Male,2003-01-03,1941-11-06,Reelection (Renominated),7977,83,61,TRUE
+424,TX-32,Colin Z. Allred,Male,2019-01-03,1983-04-15,Retired (Higher Office),2133,42,36,TRUE
+425,TX-33,Marc A. Veasey,Male,2013-01-03,1971-01-03,Reelection (Renominated),4324,54,42,TRUE
+426,TX-34,"Vicente Gonzalez, Jr.",Male,2017-01-03,1967-09-04,Reelection (Renominated),2863,57,49,TRUE
+427,TX-35,Gregorio E. Casar,Male,2023-01-03,1989-05-04,Reelection (Renominated),672,36,34,TRUE
+428,TX-36,Brian P. Babin,Male,2015-01-03,1948-03-23,Reelection (Renominated),3594,77,67,TRUE
+429,TX-37,Lloyd A. Doggett II,Male,1995-01-03,1946-10-06,Reelection (Renominated),10899,78,48,TRUE
+430,TX-38,Wesley P. Hunt,Male,2023-01-03,1981-11-13,Reelection (Renominated),672,43,41,TRUE
+431,UT-Sen,W. Mitt Romney,Male,2019-01-03,1947-03-12,Retired,2133,78,72,TRUE
+432,UT-01,Blake D. Moore,Male,2021-01-03,1980-06-22,Reelection (Renominated),1402,44,41,TRUE
+433,UT-02,Celeste Maloy,Female,2023-11-28,1981-05-22,Reelection (Renominated),343,43,43,TRUE
+434,UT-03,John R. Curtis,Male,2017-11-13,1960-05-10,Retired (Higher Office),2549,64,58,TRUE
+435,UT-04,C. Burgess Owens,Male,2021-01-03,1951-08-02,Reelection (Renominated),1402,73,69,TRUE
+436,VT-Sen,Bernard Sanders,Male,2007-01-03,1941-09-08,Reelection (Renominated),6516,83,65,TRUE
+437,VT-AL,Rebecca A. Balint,Female,2023-01-03,1968-05-04,Reelection (Renominated),672,57,55,TRUE
+438,VA-Sen,Timothy M. Kaine,Male,2009-01-03,1958-02-26,Reelection (Renominated),5785,67,51,TRUE
+439,VA-01,Robert J. Wittman,Male,2007-12-11,1959-02-03,Reelection (Renominated),6174,66,49,TRUE
+440,VA-02,Jennifer Ann Kiggans,Female,2023-01-03,1971-06-18,Reelection (Renominated),672,53,52,TRUE
+441,VA-03,Robert C. Scott,Male,1993-01-03,1947-04-30,Reelection (Renominated),11629,78,46,TRUE
+442,VA-04,Jennifer L. McClellan,Female,2023-03-07,1972-12-28,Reelection (Renominated),609,52,50,TRUE
+443,VA-05,Robert G. Good,Male,2021-01-03,1965-09-11,Reelection (Lost Renomination),1402,59,55,TRUE
+444,VA-06,Benjamin L. Cline,Male,2019-01-03,1972-02-29,Reelection (Renominated),2133,53,47,TRUE
+445,VA-07,Abigail A.D. Spanberger,Female,2019-01-03,1979-08-07,Retired (Higher Office),2133,45,39,TRUE
+446,VA-08,"Donald S. Beyer, Jr.",Male,2015-01-03,1950-06-20,Reelection (Renominated),3594,74,65,TRUE
+447,VA-09,H. Morgan Griffith,Male,2011-01-03,1958-03-15,Reelection (Renominated),5055,67,53,TRUE
+448,VA-10,Jennifer L. Wexton,Female,2019-01-03,1968-05-27,Retired,2133,56,51,TRUE
+449,VA-11,Gerald E. Connolly,Male,2009-01-03,1950-03-30,Reelection (Renominated),5785,75,59,TRUE
+450,WA-Sen,Maria E. Cantwell,Female,2001-01-03,1958-10-13,Reelection (Renominated),8707,66,42,TRUE
+451,WA-01,Suzan K. DelBene,Female,2012-11-13,1962-02-17,Reelection (Renominated),4375,63,51,TRUE
+452,WA-02,Richard R. Larsen,Male,2001-01-03,1965-06-15,Reelection (Renominated),8707,59,36,TRUE
+453,WA-03,K. Marie Gluesenkamp Perez,Female,2023-01-03,1988-06-06,Reelection (Renominated),672,36,35,TRUE
+454,WA-04,Daniel M. Newhouse,Male,2015-01-03,1955-07-10,Reelection (Renominated),3594,69,59,TRUE
+455,WA-05,Cathy A. McMorris Rodgers,Female,2005-01-03,1969-05-22,Retired,7246,55,36,TRUE
+456,WA-06,Derek C. Kilmer,Male,2013-01-03,1974-01-01,Retired,4324,51,39,TRUE
+457,WA-07,Pramila Jayapal,Female,2017-01-03,1965-09-21,Reelection (Renominated),2863,59,51,TRUE
+458,WA-08,Kimberly M. Schrier,Female,2019-01-03,1968-08-23,Reelection (Renominated),2133,56,50,TRUE
+459,WA-09,D. Adam Smith,Male,1997-01-03,1965-06-15,Reelection (Renominated),10168,59,32,TRUE
+460,WA-10,Marilyn Strickland,Female,2021-01-03,1962-09-25,Reelection (Renominated),1402,62,58,TRUE
+461,WV-Sen,Joseph A. Manchin III,Male,2010-11-15,1947-08-24,Retired,5104,77,63,TRUE
+462,WV-01,Carol D. Miller,Female,2019-01-03,1950-11-04,Reelection (Renominated),2133,74,68,TRUE
+463,WV-02,Alexander X. Mooney,Male,2015-01-03,1971-06-07,Retired (Higher Office),3594,53,44,TRUE
+464,WI-Sen,Tammy S.G. Baldwin,Female,2013-01-03,1962-02-11,Reelection (Renominated),4324,63,51,TRUE
+465,WI-01,Bryan G. Steil,Male,2019-01-03,1981-03-03,Reelection (Renominated),2133,44,38,TRUE
+466,WI-02,Mark W. Pocan,Male,2013-01-03,1964-08-14,Reelection (Renominated),4324,60,48,TRUE
+467,WI-03,Derrick F. Van Orden,Male,2023-01-03,1969-09-15,Reelection (Renominated),672,55,53,TRUE
+468,WI-04,Gwendolynne S. Moore,Female,2005-01-03,1951-04-18,Reelection (Renominated),7246,74,54,TRUE
+469,WI-05,Scott L. Fitzgerald,Male,2021-01-03,1963-11-16,Reelection (Renominated),1402,61,57,TRUE
+470,WI-06,Glenn S. Grothman,Male,2015-01-03,1955-07-03,Reelection (Renominated),3594,69,60,TRUE
+471,WI-07,Thomas P. Tiffany,Male,2020-05-19,1957-12-30,Reelection (Renominated),1631,67,62,TRUE
+472,WI-08 (Special),Michael J. Gallagher,Male,2017-01-03,1984-03-03,Resignation,2863,41,33,TRUE
+473,WI-08,Michael J. Gallagher,Male,2017-01-03,1984-03-03,Resignation,2863,41,33,TRUE
+474,WY-Sen,John A. Barrasso III,Male,2007-06-25,1952-07-21,Reelection (Renominated),6343,72,55,TRUE
+475,WY-AL,Harriet M. Hageman,Female,2023-01-03,1962-10-18,Reelection (Renominated),672,62,60,TRUE
+476,AS-Del,Amata C. Coleman Radewagen,Female,2015-01-03,1947-12-29,Reelection (Renominated),3594,77,67,TRUE
+477,DC-Del,Eleanor K. Holmes Norton,Female,1991-01-03,1937-06-13,Reelection (Renominated),12360,87,54,TRUE
+478,GU-Del,James C. Moylan,Male,2023-01-03,1962-07-18,Reelection (Renominated),672,62,60,TRUE
+479,NMI-Del,Gregorio K.C. Sablan,Male,2009-01-03,1955-01-19,Retired,5785,70,54,TRUE
+480,PR-Del,Jenniffer González-Colón,Female,2017-01-03,1976-08-05,Retired (Higher Office),2863,48,40,TRUE
+481,VI-Del,Stacey E. Plaskett,Female,2015-01-03,1966-05-13,Reelection (Renominated),3594,58,49,TRUE
