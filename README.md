@@ -158,3 +158,46 @@ These queries create views for all nominees who had a Standing of 1 or 2 in each
 ### Joining Each Margin with Their Race
 
 
+
+## Exploratory Data Analysis
+
+### PVI
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Assuming PVI is your dataframe
+# Step 1: Extract the first word from Cook Rating
+PVI['Cook_Category'] = PVI['Cook Rating'].str.split().str[0]
+
+# Step 2: Create boxplots grouped by the first word of Cook Rating
+# Separate plots by PVI Lean and measure by PVI
+plt.figure(figsize=(14, 8))
+sns.boxplot(x='Cook_Category', y='PVI', hue='PVI Lean', data=PVI)
+
+# Improve plot appearance
+plt.title('PVI Distribution by Cook Rating Category and PVI Lean')
+plt.xlabel('Cook Rating Category (First Word)')
+plt.ylabel('PVI Value')
+plt.xticks(rotation=45)
+plt.legend(title='PVI Lean')
+plt.tight_layout()
+
+# Optional: Add a stripplot to see individual data points
+# sns.stripplot(x='Cook_Category', y='PVI', hue='PVI Lean', 
+#               data=PVI, dodge=True, alpha=0.3, jitter=True)
+
+plt.show()
+
+# Optional: Display summary statistics
+print(PVI.groupby(['Cook_Category', 'PVI Lean'])['PVI'].describe())
+
+```
+
+<img width="1389" height="790" alt="PVI by Cook Rating & Leaning" src="https://github.com/user-attachments/assets/eddb9bf5-902f-4952-b07f-68dbd3674ed0" />
+
+### Description: 
+<img width="941" height="573" alt="Cook Rating Description" src="https://github.com/user-attachments/assets/7c5443db-b63c-429a-958a-6abcb61bc332" />
+
