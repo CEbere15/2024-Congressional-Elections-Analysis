@@ -84,6 +84,7 @@ This data project was made with the goal of gaining insights into the performanc
 |`Cook Rating`| Text | The rating given to the constituency by Cook Political Report (Lean, Solid, Likely).|
 
 </br>
+
 #### Presidential
 
 
@@ -161,7 +162,117 @@ These queries create views for all nominees who had a Standing of 1 or 2 in each
 
 ## Exploratory Data Analysis
 
+
+### Incumbents
+
+#### Decision Distribution by Gender
+
+```py
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+# Create a dictionary for the specific mappings
+decision_mapping = {
+    'Death': ['Death'],
+    'Retired': ['Retired (Redistricting)', 'Retired', 'Retired (Higher Office)'],
+    'Lost Renomination': ['Reelection (Lost Renomination)'],
+    'Renominated': ['Reelection (Redistricting; Won Renomination)', 'Reelection (Renominated)'],
+    'Resignation': ['Resignation']
+}
+
+# Define a function to map decisions based on the specific categories
+def map_decisions(decision):
+    if pd.isna(decision):
+        return "Other"
+    
+    for category, values in decision_mapping.items():
+        if decision in values:
+            return category
+    
+    return "Other"
+
+# Apply the mapping function to create a new column
+Incumbents['Decision_Group'] = Incumbents['Decision'].apply(map_decisions)
+
+# Create a cross-tabulation of Decision_Group and Gender
+decision_gender_counts = pd.crosstab(Incumbents['Decision_Group'], Incumbents['Gender'])
+
+# Calculate the total counts for sorting
+decision_totals = decision_gender_counts.sum(axis=1)
+sorted_decisions = decision_totals.sort_values(ascending=False).index
+
+# Create a grouped bar plot
+plt.figure(figsize=(14, 8))
+decision_gender_counts.loc[sorted_decisions].plot(kind='bar', width=0.8)
+
+# Customize the plot
+plt.title('Decision Types by Gender', fontsize=16)
+plt.xlabel('Decision Type', fontsize=14)
+plt.ylabel('Count', fontsize=14)
+plt.xticks(rotation=45, ha='right')
+plt.legend(title='Gender')
+
+# Add a grid for better readability
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Add value labels on top of each bar
+for i, decision in enumerate(sorted_decisions):
+    for j, gender in enumerate(decision_gender_counts.columns):
+        count = decision_gender_counts.loc[decision, gender]
+        if count > 0:  # Only add label if count is greater than 0
+            plt.text(i + (j - len(decision_gender_counts.columns)/2 + 0.5) * 0.8/len(decision_gender_counts.columns), 
+                     count + 1, str(count), ha='center', fontsize=10)
+
+# Improve layout
+plt.tight_layout()
+
+# Show the plot
+plt.show()
+
+# Print the counts for reference
+print("Decision Group by Gender Counts:")
+print(decision_gender_counts.loc[sorted_decisions])
+
+# Calculate and print percentages within each gender
+print("\nPercentage Distribution within each Gender:")
+percentage_by_gender = decision_gender_counts.div(decision_gender_counts.sum()) * 100
+print(percentage_by_gender.round(2).loc[sorted_decisions])
+
+# Calculate and print percentages within each decision group
+print("\nPercentage Distribution within each Decision Group:")
+percentage_by_decision = decision_gender_counts.div(decision_gender_counts.sum(axis=1), axis=0) * 100
+print(percentage_by_decision.round(2).loc[sorted_decisions])
+```
+<img width="1184" height="784" alt="Decisions by Gender" src="https://github.com/user-attachments/assets/9c1a03dd-d710-4d77-a3c9-40f1d787b897" />
+
+Statistics
+<img width="571" height="552" alt="image" src="https://github.com/user-attachments/assets/1a3b2d0f-0868-42cb-9c17-11bb5fc464f0" />
+
+
+WHen interpreting the decisions that most incumbents made a choice to go for reelection, and that the vast majority suceeded in winning renomination. The second likely decision is retiring from their seat (whether for higher office, redistricing purposes or just simple retirement). The least likely decision/outcomes include resignation (in this case close enough to election day that a prior special election is not called), death and losing renomination. There also seems to be little to no disparities when it comes to retirement and winning renomination between genders. Both categories have virtually the exact same percentage between genders. However, there are still far more male incumbents in Congress, then female members. 
+</br>
+
+<img width="1784" height="1052" alt="Exact Decisions Stacked by Decision Category" src="https://github.com/user-attachments/assets/8a595806-7799-472c-9b06-88c41e695e57" />
+
+
 ### PVI
+```py
+# Histogam for PVI values
+plt.figure(figsize=(10, 6))
+sns.histplot(PVI['PVI'], kde=True)
+plt.title('Distribution of PVI Values')
+plt.xlabel('PVI')
+plt.grid(True, alpha=0.3)
+plt.show()
+
+```
+#### Distribution of PVI Values
+<img width="842" height="545" alt="Distribution of PVI Values" src="https://github.com/user-attachments/assets/db50e945-4804-4524-9761-06623622e622" />
+
+From this we can gleam that most PVI values are concentrated between 0 and 20, with any PVI values that go over that being far more rare. Which likely says that the median constituency is fairly partisan, but not to absurd levels. 
 
 ```py
 import pandas as pd
