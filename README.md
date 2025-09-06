@@ -120,10 +120,10 @@ SELECT Nominee, Party, Gender, State, Region, WiderRegion, Type, Race, Class, In
         WHEN Party in ('Green', 'Mountain', 'D.C. Statehood Green', 'Pacific Green', 'Independent Green', 'Desert Greens') then 'Green Party'
         WHEN Party = 'Conservative' THEN 'Conservative Party'
         WHEN Party IN ('Young Socialist Alliance', 'Communist', 'Socialist Equality', 'Socialist', 'Socialist Labor', 'Peace And Freedom', 'Socialist Workers', 'Liberty Union') THEN 'Socialist Parties'
-        WHEN Party IN ('No Party', 'No Party Affiliation', 'Other', 'Nominated by Petition', 'Conneticut for Lieberman', 'Write-In', 'Independent Political Choice', 'No Party Preference', 'Independent', 'Independent Constitutional Candidate', 'Independent Party of Delaware', 'Independence', 'Nonpartisan', 'No Political Party', 'Unaffiliated') THEN 'Independent'
+        WHEN Party IN ('No Party', 'By Petition', 'No Party Affiliation', 'Other', 'Nominated by Petition', 'Conneticut for Lieberman', 'Write-In', 'Independent Political Choice', 'No Party Preference', 'Independent', 'Independent Constitutional Candidate', 'Independent Party of Delaware', 'Independence', 'Nonpartisan', 'No Political Party', 'Unaffiliated') THEN 'Independent'
         ELSE 'Other Minor Parties'
     END AS Category, Special, Runoff 
-FROM Nominee-2924
+FROM [Nominees-2024]
 ORDER BY Race, State;
 
 
@@ -141,16 +141,15 @@ This SQL query creates a view that selects all the columns from the Nominee, and
 
 
 ```sql
--- Creating view for all first place nominees
-CREATE VIEW NRanks1 AS SELECT * FROM Ordered WHERE Standing = 1
+CREATE VIEW NRanks1 AS SELECT * FROM Ordered WHERE Standing = 1;
 
 -- Creating view for all second place nominees
-CREATE VIEW NRanks2 AS SELECT * FROM Ordered WHERE Standing = 2
+CREATE VIEW NRanks2 AS SELECT * FROM Ordered WHERE Standing = 2;
 
 -- Creating a iew for Margins based on first place share - second place share
 CREATE VIEW Margs AS SELECT a.Race,  a.Share - b.Share AS Win
 FROM NRanks1 a 
-JOIN NRanks2 b ON a.Race = b.Race
+JOIN NRanks2 b ON a.Race = b.Race;
 ```
 
 These queries create views for all nominees who had a Standing of 1 or 2 in each election. Then a new view is created that takes 1's and subtracts their share of the votes by 2's, creating margins of victory for each race. 
