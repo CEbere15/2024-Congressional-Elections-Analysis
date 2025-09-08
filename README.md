@@ -1,24 +1,67 @@
-# 2024 Congressional Elections Analysis
-A deep analysis on the 2024 Senatorial and House of Representatives elections. Analyzing district leaning, campaign finances, incumbent data, election results and presidential results.
+# 2024 Congressional Elections: A Comprehensive Data Analysis
 
 
 ## Overview
 
-### Summary
 
-This data project was made with the goal of gaining insights into the performances of each party, nominee in the 2024 Congressional Elections. It's made to be a deep analysis on the 2024 Senatorial and House of Representatives elections. Analyzing district leaning, campaign finances, incumbent data, election results and presidential results.
+This project provides an in-depth analysis of the 2024 Congressional Elections, examining both Senate and House of Representatives races across all 50 states. Through comprehensive data collection, cleaning, and analysis, this study investigates the key factors that influenced election outcomes, including incumbent advantage, district political leanings, campaign finances, and presidential race correlations.
+
+
+### Key Research Questions
+  1. How did incumbent status affect electoral outcomes in 2024?
+  2. What role did political lean play in determining winners and overall competitiveness of districts?
+  3. To what extent does a nominee's demographics affect election results?
+  4. How closely do Congressional results align wiht Presidential race voting patterns?
+  5. What factors were most predictive of a race being competitive versus safe?
+  6. How do party dynamics and geography interact to shape outcomes?
+
+
+
+
+
 
 ### Tools
 - Excel - Data Cleaning / Preperation
-  - Used to compile datasets from multiple sources and organize them in worksheets.
+  - Used to compile datasets from multiple sources and organize them into worksheets.
+  - Initial data validation and format standardization.
 - DB Browser (SQLite) - Data Analysis, Exploration and Manipulation
-  - Used for querying, exploring, and manipulating the data into a more usable format for insights.
-- Python - Data Analysis and Visualization
-  - Employed to create charts and visualizations that would be challenging to produce in Tableau, along with performing statistical analyses to understand how variables might have affected the number of votes.
+  - Designed relational database structure for efficient querying.
+  - Performed complex data transformations and aggrgations.
+  - Created views for analysis-ready datasets with calculated fields.
+- Python - Statistical Analysis and Advanced Visualization
+  - Libraries Used: pandas, nmpy, matplotlib, seaborn, scipy, sklearn
+  - Conducted statistical tests and correlation analysis.
+  - Generated custom visualizations for complex relationships.
+  - Performed predictive modeling and trend analysis.
 - Tableau - Dashboard Creation
   - Utilized for visualizing the dataset and creating a dashboard.
+  - Created interactive filters for dynamic data exploration.
+  - Designed compelling visualizations for key insights
 
 </br>
+
+### Sources
+#### Primary Data Sources: 
+- Federal Election Commission (FEC): Official election results and candidate information
+- Cook Political Report: Partisan Voting Index (PVI) ratings and constituency analysis
+- Ballotpedia: Incumbent information, candidate demographics, and election dates
+- Whitepages: Personal information on candidates, especially their middle name and initials
+- House Clerk's Office: Election results and final vote tallies
+- Census Bureau: Regional classifications and demographic data
+
+#### Data Coverage: 
+- Time Period: 2024 Election Cycle
+- Geographic Scope: All 50 states plus territories
+- Election Types: Regular elections, special elections, runoffs and ranked choice voting rounds
+- Candidate Information: Gender, party affiliation, incumbent status
+
+## Summary
+
+
+The 2024 Congressional Elections marked a significant electoral cycle, occurring alongside the presidential race between former President Donald Trump and incumbent Vice President Kamala Harris. This analysis examines 446 House races and 35 Senate races (when counting all runoffs, ranked choice rounds and special ellections), analyzing voting patterns, demographic factors, and electoral dynamics across diverse constituencies.
+
+### Key Findings:
+
 
 ### Data Dictionary
 #### 2024 Nominees
@@ -104,6 +147,9 @@ This data project was made with the goal of gaining insights into the performanc
 | `Original`      | Text     | Whether this election was the first (non-special or a runoff).|
 
 </br>
+
+### Summary
+
 ## Data Manipulation
 
 ### Categorizing Parties and Ranking Nominees
