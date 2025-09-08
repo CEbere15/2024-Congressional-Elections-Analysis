@@ -64,6 +64,11 @@ The 2024 Congressional Elections marked a significant electoral cycle, occurring
 ### Key Findings:
 
 
+
+</br>
+
+## Dataset Making Process
+
 ### Data Dictionary
 #### 2024 Nominees
 
@@ -147,9 +152,6 @@ The 2024 Congressional Elections marked a significant electoral cycle, occurring
 | `Presidential Margin` | Text     | Margin of victory for the District Winner in the district.  |
 | `Original`      | Text     | Whether this election was the first (non-special or a runoff).|
 
-</br>
-
-## Dataset Making Process
 ### Sources Integration
 
 Creating this dataset involved integrating several primary sources to create a comprehensive view of the 2024 Congressional Elections.
@@ -168,8 +170,13 @@ Creating this dataset involved integrating several primary sources to create a c
 
 ## Data Manipulation
 
-### Categorizing Parties and Ranking Nominees
+### Key Transformations 
+
+**Party Categorization Standardization:** Created a comprehensive party classification system to handle the diverse array of party affiliations found in congressional races, allowing for an easier time 
 ```sql
+-- Party standardization logic implemented in view
+
+
 CREATE View Ordered AS 
 SELECT Nominee, Party, Gender, State, Region, WiderRegion, Type, Race, Class, Incumbent, Victor, Votes, Share, Total, 
     dense_rank() OVER (PARTITION BY Race ORDER BY Votes DESC) AS Standing, Heldby, Hometown, ElectionDay, ElectionYear, YearType, LastElection, 
@@ -192,9 +199,25 @@ ORDER BY Race, State;
 ```
 
 
+</br>
 
-This SQL query creates a view that selects all the columns from the Nominee, and creates a normalized designation for party affiliation called Categorym while also ranking nominees in each race by Standing. 
+**Ranking and Margin Calculations:**
+In order to find how close races were, we must calculate find the winning margin of every race. To do so we need: 
 
+- **Standing Calculation:** Created through dense_ranK() to determine candidate placement within each race by votes
+- **Victory Margin:** Created calculated field showing percentage point difference between first and second place candidates
+- **Competitiveness Metrics:** Cook Political Report's indicator for each race's competitiveness, going from lean, safe, likely to tossup
+  
+</br>
+
+**Key Views Created:**
+
+| View     |   Description                                                                      |
+|-------------------|-----------------------------------------------------------------------------|
+| `Ordered`    | Base view with standardized party categories and race standings.        |
+| `NRanks1 & NRanks2`      |Separate views for first and second place finishers. |
+| `Margs`      |Victory margin calculations by race. |
+| `Nominees-Full`      |Comprehensive final dataset with all calculated fields. |
 
 
 </br>
