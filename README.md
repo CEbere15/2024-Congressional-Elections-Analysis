@@ -48,6 +48,7 @@ This project provides an in-depth analysis of the 2024 Congressional Elections, 
 - Whitepages: Personal information on candidates, especially their middle name and initials
 - House Clerk's Office: Election results and final vote tallies
 - Census Bureau: Regional classifications and demographic data
+- DailyKOS: Provided the presidential results by districts and constituencies
 
 #### Data Coverage: 
 - Time Period: 2024 Election Cycle
@@ -148,7 +149,22 @@ The 2024 Congressional Elections marked a significant electoral cycle, occurring
 
 </br>
 
-### Summary
+## Dataset Making Process
+### Sources Integration
+
+Creating this dataset involved integrating several primary sources to create a comprehensive view of the 2024 Congressional Elections.
+  1. **Candidate Data:** Compiled the registered nominees for the 2024 Congressional Elections throgh the House Clerk's Office list, providing their names, party affiliation, the race their nominated for, and their hometown. Further information on candidates found through Whitepages & FEC databases
+  2. **Historical Context:** Used previous election results and incumbent information to find which party held each seat last, the political leaning of each seat through the Cook Partisan Voting Index, along with the tenure of the incumbent and their decision/outcome when it came to renomination.
+  3. **Geographic Classification:** Applied Census Bureau regional designations for the Subdivisions and Regions of the United States, allowing for division of states by area
+  4. **Presidential Results:** Aligned congressional districts with concurrent presidential election voting patterns
+
+### Data Validation Process
+- Cross-referenced vote totals across multiple sources
+- Verified candidate information against official filings
+- Validated geographic assignments and boundary changes
+- Made sure PVI ratings were up to date with the redistricting of several districts
+- Confirmed incumbent status and election dates
+
 
 ## Data Manipulation
 
