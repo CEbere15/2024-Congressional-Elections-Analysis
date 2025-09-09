@@ -170,7 +170,22 @@ Creating this dataset involved integrating several primary sources to create a c
 
 ## Data Manipulation
 
+
+
 ### Key Transformations 
+
+**Key Views Created:**
+
+| View     |   Description                                                                      |
+|-------------------|-----------------------------------------------------------------------------|
+| `Ordered`    | Base view with standardized party categories and race standings.        |
+| `NRanks1 & NRanks2`      |Separate views for first and second place finishers. |
+| `Margs`      |Victory margin calculations by race. |
+| `Nominees-Full`      |Comprehensive final dataset with all calculated fields. |
+
+
+</br>
+
 
 **Party Categorization Standardization:** Created a comprehensive party classification system to handle the diverse array of party affiliations found in congressional races, allowing for an easier time 
 ```sql
@@ -206,26 +221,10 @@ In order to find how close races were, we must calculate find the winning margin
 
 - **Standing Calculation:** Created through dense_ranK() to determine candidate placement within each race by votes
 - **Victory Margin:** Created calculated field showing percentage point difference between first and second place candidates
-- **Competitiveness Metrics:** Cook Political Report's indicator for each race's competitiveness, going from lean, safe, likely to tossup
-  
-</br>
-
-**Key Views Created:**
-
-| View     |   Description                                                                      |
-|-------------------|-----------------------------------------------------------------------------|
-| `Ordered`    | Base view with standardized party categories and race standings.        |
-| `NRanks1 & NRanks2`      |Separate views for first and second place finishers. |
-| `Margs`      |Victory margin calculations by race. |
-| `Nominees-Full`      |Comprehensive final dataset with all calculated fields. |
-
-
-</br>
-
-### Creating Margins for Each Race
 
 
 ```sql
+-- Creating view for all first place nominees
 CREATE VIEW NRanks1 AS SELECT * FROM Ordered WHERE Standing = 1;
 
 -- Creating view for all second place nominees
@@ -235,12 +234,19 @@ CREATE VIEW NRanks2 AS SELECT * FROM Ordered WHERE Standing = 2;
 CREATE VIEW Margs AS SELECT a.Race,  a.Share - b.Share AS Win
 FROM NRanks1 a 
 JOIN NRanks2 b ON a.Race = b.Race;
+
+-- Creating view with all calculated fields. 
+Create View [Nominees-Full] as 
+SELECT row_number() over(order by State, a.Race, Votes desc) Row, Nominee, Party, Gender, State, Region, WiderRegion, Type, a.Race, Class, 
+Incumbent, Victor, Votes, Share, Total, Standing, HeldBy, Hometown, coalesce(100.0 * b.Win, 100) AS Margin, Category, ElectionDay, ElectionYear, YearType, LastElection, 
+Final, Special, Runoff
+FROM Ordered a
+LEFT JOIN Margs b
+ON b.Race = a.Race;
 ```
+</br>
 
-These queries create views for all nominees who had a Standing of 1 or 2 in each election. Then a new view is created that takes 1's and subtracts their share of the votes by 2's, creating margins of victory for each race. 
 
-
-### Joining Each Margin with Their Race
 
 
 
