@@ -402,3 +402,16 @@ print(PVI.groupby(['Cook_Category', 'PVI Lean'])['PVI'].describe())
 ### Description: 
 <img width="941" height="573" alt="Cook Rating Description" src="https://github.com/user-attachments/assets/7c5443db-b63c-429a-958a-6abcb61bc332" />
 
+
+### Regional Analysis
+<img width="1388" height="790" alt="Regional Analysis" src="https://github.com/user-attachments/assets/c60bce47-ceb7-4772-b97a-0dc5d22c8b0d" />
+
+### Congressional vs. Presidential Margins
+<img width="1291" height="726" alt="Congressional vs. Presidential Margins" src="https://github.com/user-attachments/assets/2602bc8e-677f-4127-a5e2-1baade3336e4" />
+
+
+
+#### PVI Competitive Analysis with Equal Width Binning
+<img width="1185" height="584" alt="PVI Competitive Analysis" src="https://github.com/user-attachments/assets/5267e12f-fd94-4280-a0ad-a564735977de" />
+
+
